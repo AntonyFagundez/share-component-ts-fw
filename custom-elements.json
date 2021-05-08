@@ -1,0 +1,62 @@
+{
+  "version": 2,
+  "tags": [
+    {
+      "name": "sharing-component",
+      "description": "A component with a title and an action counter",
+      "properties": [
+        {
+          "name": "title",
+          "type": "String",
+          "description": "The title of your component",
+          "default": "E"
+        },
+        {
+          "name": "label",
+          "type": "String",
+          "description": "The label of the component",
+          "default":"Share in"
+        },
+        {
+          "name": "url",
+          "type": "String",
+          "description": "The url to share"
+        },
+        {
+          "name": "text-selector",
+          "type": "String",
+          "description": "The selector of the component of the text"
+        },
+        {
+          "name": "mailto",
+          "type": "String",
+          "description": "The mail to Share"
+        },
+        {
+          "name": "subject",
+          "type": "String",
+          "description": "The Subject of the mail. For Default is the Titel"
+        },
+        {
+          "name": "body",
+          "type": "String",
+          "description": "The Body of the mail. For default is the body of text"
+        },
+        {
+          "name": "pinterest-src-img",
+          "type": "String",
+          "description": "The url for share image in Pinterest"
+        }
+      ],
+      "events": [],
+      "slots": [],
+      "cssProperties": [
+        {
+          "name": "--sharing-component-text-color",
+          "description": "Main Text Color",
+          "type": "Color"
+        }
+      ]
+    }
+  ]
+}
